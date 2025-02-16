@@ -41,10 +41,20 @@
 ```
 
 ```java
-    System.out.printf("Hello %d %s", 18, "World!");
+    public class Main {
+    public static void main(String[] args) {
+        System.out.printf("%-10s %-10s %-10s%n", "ID", "Tên", "Lương");
+        System.out.printf("%-10d %-10s %-10.2f%n", 1, "Alice", 5000.0);
+        System.out.printf("%-10d %-10s %-10.2f%n", 2, "Bob", 6000.5);
+    }
+}
 ```
 - Chú ý:
-    %d: dùng cho  
+    %d: dùng cho số nguyên 
+    %f: dùng cho số thực 
+    %s: dùng cho chuỗi 
+    %c: dùng cho ký tự
+    %n: Xuống dòng
 
 2. Biến, kiểu dữ liệu, ép kiểu
 
