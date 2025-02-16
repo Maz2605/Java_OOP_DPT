@@ -1,4 +1,4 @@
-# Buổi 2
+# Buổi 1
 
 ## Tổng quan về ngôn ngữ Java
 
